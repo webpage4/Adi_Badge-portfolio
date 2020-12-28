@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/final-proj.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    
+     <title>Shopping</title>
+    <link rel="icon" href="AB_circle.png" type="image">
+  </head>
+    
+    
+<body>   
+    <header>
+      <div class="first">
+      <nav>
+        <a class="h2" href="login.html">LOGIN</a>
+        <a  class="h3" href="signup.html"> SIGN UP</a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBVSW-mBpAoTmlF7_UePPxmJRsHfQMZkRAFg&usqp=CAU" class="cart">
+      </nav>
+      </div>
+        
+    </nav>
+    </ul>
+    </header>
+  
+  <img src="https://thumbs.dreamstime.com/b/ab-b-circle-letter-logo-design-purple-dots-bubbles-magenta-vector-illustration-90108621.jpg" class="AB"></br>
+  <div class="sec">
+  <nav>
+  <a class="home" href="Home.html">HOME</a>
+  <a class="men"  href="Men.html">MEN</a>
+  <a class="women" href="Women.html">WOMEN</a>
+  <a class="kids" href="Kids.html">KIDS</a>
+  <a class="contact" href="Contact.html">CONTACT</a></br>
+  </nav>
+  </div>
+
+  <img class="sbi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlYyEeDNOg2acWEloHs4-ffxUTZ16kSk2oTA&usqp=CAU">
+  <input  class="sb" type="text" name="search" placeholder="Search Items"></br>
+  <p>    </p>
+ </br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://st2.depositphotos.com/3258807/8784/i/950/depositphotos_87846802-stock-photo-friendly-family-walking-around-shopping.jpg" style="width:100%">
+  <div class="text">SHOP HERE</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://previews.123rf.com/images/gpointstudio/gpointstudio1305/gpointstudio130500036/19564505-portrait-of-happy-couple-with-shopping-bags.jpg" style="width:100%">
+  <div class="text">sales for couples</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://www.greaterseattleonthecheap.com/wordpress/wp-content/uploads/2016/11/Depositphotos_55410537_l-2015-woman-christmas-shopping-e1542656392875.jpg" style="width:100%">
+  <div class="text">special offers for women</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+
+
+<footer>
+  <div class="foot">
+  <ul>
+ <li> <p>Plot no-129,Medical Square,Nagpur</p>
+  <p>Nagpur INDIA-440009</p>
+  <p>Contacts:</p>
+  <p>8416847564</p></li>
+   <li><p></p>
+    
+
+    <img src="AB_circle.png" class="AB-f"></br>
+    <p class="ft">AB Company</p>
+    <p class="ft">Online Shopping Made Easy</li>
+   <li class="right"><p>About us</p>
+<p>To know more about us <a href="about-us.html">click here</a></p></li>
+ </ul>
+</div>
+
+
+
+
+
+
+</footer>
+</html>
+
+
+
